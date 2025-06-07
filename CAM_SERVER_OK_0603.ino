@@ -5,7 +5,7 @@
 #include <WebServer.h>        // ESP32 내장 웹서버 기능 제공
 
 const char* ssid = "WeVO_2.4G";         // 연결할 Wi-Fi SSID
-const char* password = "Toolbox,8358+";     // 연결할 Wi-Fi 비밀번호
+const char* password = "Toolbox";     // 연결할 Wi-Fi 비밀번호
 
 WebServer server(80);         // 웹서버 인스턴스 생성 (포트 80)
 
